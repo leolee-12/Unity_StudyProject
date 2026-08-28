@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour {
         if (isDead)
         {
             // 사망 시 갱신 작업 없이 종료
-
             return;
         }
 
@@ -52,6 +51,8 @@ public class PlayerController : MonoBehaviour {
         playerRigidbody.linearVelocity = Vector2.zero;
         
         isDead = true;
+
+        GameManager.instance.OnPlayerDead();
    }
 
    private void OnTriggerEnter2D(Collider2D other) {
