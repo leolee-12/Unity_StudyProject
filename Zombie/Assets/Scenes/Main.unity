@@ -975,13 +975,38 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 613298867831662880, guid: d6bcf85c450311c48a91c69f4dcea24e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 554803488}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5286646726687916162, guid: d6bcf85c450311c48a91c69f4dcea24e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6376724109006687706}
   m_SourcePrefab: {fileID: 100100000, guid: d6bcf85c450311c48a91c69f4dcea24e, type: 3}
 --- !u!4 &6376724109006687704 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 613298867831662880, guid: d6bcf85c450311c48a91c69f4dcea24e, type: 3}
   m_PrefabInstance: {fileID: 6376724109006687703}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6376724109006687705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5286646726687916162, guid: d6bcf85c450311c48a91c69f4dcea24e, type: 3}
+  m_PrefabInstance: {fileID: 6376724109006687703}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6376724109006687706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376724109006687705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d59ae54f97f62d844aebf692b4294dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  startingHealth: 100
+  healthSlider: {fileID: 1167885910}
+  deathClip: {fileID: 8300000, guid: 4265c953ea2b74edabac0c972182dcba, type: 3}
+  hitClip: {fileID: 8300000, guid: cbfb3a79860ac42c89b09fc131ef4b61, type: 3}
+  itemPickupClip: {fileID: 8300000, guid: 519ad2e4de69341948a938bf2a31e33b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
